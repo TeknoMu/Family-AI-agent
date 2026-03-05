@@ -1,6 +1,7 @@
 """
 Configuration loaded from environment variables.
 """
+import os
 from pydantic_settings import BaseSettings
 from functools import lru_cache
 
@@ -26,7 +27,11 @@ class Settings(BaseSettings):
             return set()
         return {int(uid.strip()) for uid in self.allowed_user_ids.split(",") if uid.strip()}
 
-    model_config = {"env_file": ".env", "env_file_encoding": "utf-8"}
+    model_config = {
+        "env_file": ".env",
+        "env_file_encoding": "utf-8",
+        "extra": "ignore",
+    }
 
 
 @lru_cache
