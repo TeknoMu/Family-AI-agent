@@ -1,0 +1,102 @@
+SOURCE: Netzon Group - Company Profile and Services (netzongroup.com)
+DOMAIN: technology
+
+NETZON GROUP - COMPANY OVERVIEW
+
+Netzon Group is a technology and customer experience company founded in Stockholm, Sweden in 2012. The company started as a tech startup developing smart platforms, customized software, and digital solutions for startups and global brands. As clients grew, Netzon expanded into combining technology with human service, building tech-powered customer care operations.
+
+Headquarters: Vasagatan 16, 111 20 Stockholm, Sweden
+Phone: +46 702-76 67 02
+Email: info@netzongroup.com
+Website: www.netzongroup.com
+
+GLOBAL OFFICES AND EXPANSION TIMELINE
+
+2012: Founded in Stockholm, Sweden. Opened first office in the Philippines.
+2023: Expanded to Singapore.
+2025: Launched a hub in the Czech Republic to support European partners.
+
+The company now delivers tech-powered customer care across industries and time zones, with a global workforce spanning Europe and Asia-Pacific.
+
+CORE SERVICE AREAS
+
+Netzon Group operates across three main pillars:
+
+1. CONTACT CENTER SOLUTIONS
+Full suite of contact center services for any business sector including:
+- Inbound and outbound calls
+- AI-enabled customer experience solutions
+- Native language multilingual support
+- Technical support and helpdesk
+- Sales and telemarketing
+- Account management and virtual agents
+- Social media and community management
+- Live chat support
+- 24/7 omnichannel support
+All services are tailored to meet specific customer experience needs. Significant experience in e-commerce, fintech, retail, and premium customer experience sectors.
+
+2. CUSTOMER EXPERIENCE AND AI
+Netzon crafts smooth, connected journeys between people, platforms, and AI. Key capabilities:
+- AI-driven customer feedback analysis to identify trends and optimize performance
+- Machine learning and Generative AI integrated into blended human-digital strategies
+- Agentic AI: developing tailored solutions combining ready-made technologies to reduce investment costs
+- Smart automation to streamline operations
+- Real-time insights and KPI tracking for continuous optimization
+- Omnichannel engagement across all customer touchpoints
+
+3. DIGITAL DEVELOPMENT
+Scalable digital systems including:
+- Web and mobile application development
+- Platform development and backend tools
+- Native mobile development using PHP, Python, .NET and other technologies
+- Tech stack selection based on project complexity and scalability needs
+- UX/UI design with in-house design team
+- Digital solutions for physical stores (IoT partnership with Need+)
+- Ongoing support, maintenance, and optimization services
+
+TECHNOLOGY STACK AND TOOLS
+
+Development: PHP, Python, .NET, native mobile development
+Infrastructure: Cloud-based CRMs, automation tools, analytics platforms
+AI: Machine learning, Generative AI, Agentic AI solutions
+Customer service: AI chatbots, omnichannel support systems
+IoT: Ekin system (partnership with Need+) - IoT-based sensors for retail stores and conventions controlling lighting, audio, screens, and collecting customer engagement data
+
+NOTABLE PROJECTS
+
+Detail Online: Netzon built from the ground up a global retail analytics platform helping brands monitor product visibility across online resellers. Developed core technology including advanced web crawling, data processing, and AI-driven solutions. Supported the product for several years.
+
+CPM Contact Center (2024): One of the year's largest contact center initiatives. Built a multilingual support operation from scratch for a major international brand. Scaled from 0 to 250 agents within 12 months across multiple markets.
+
+ADDI Medical - Hope Platform: Co-developed Hope, a secure digital platform for collecting and managing patient health data. Includes mobile and web applications compliant with healthcare regulations. Empowers healthcare providers with personalized, data-driven care workflows.
+
+Air Spirometer: Developed the mobile platform for an innovative and affordable tool for real-time respiratory monitoring.
+
+Shopt (with CPM): Developed a mobile app designed to streamline reporting, task handling, and communication for retail field teams.
+
+COMPANY PHILOSOPHY AND APPROACH
+
+Netzon believes growth happens when smart automation meets real human connection. Their structured approach includes:
+- Understanding the client company's mission, goals, and audience first
+- Detailed workflows, timelines, and documentation for transparency
+- Continuous feedback collection and AI-driven analysis
+- User-centric design balancing innovation with usability
+- Long-term partnership focus with ongoing support and maintenance
+- Combining the best of ready-made technologies to reduce investment costs
+
+INDUSTRIES SERVED
+
+- E-commerce
+- Fintech
+- Retail
+- Healthcare (medical platforms, patient data management)
+- Premium customer experience
+- Global brands requiring multilingual support
+
+CONTACT CENTER CAPABILITIES
+
+Multilingual team connecting with customers worldwide, bridging cultures and delivering personal service in every language. 24/7 support with consistent high-quality service. Agents receive continuous comprehensive training in product knowledge, customer service techniques, and technology tools. The contact center is described as "built for today and ready for tomorrow."
+
+AI STRATEGY
+
+Netzon sees AI as a necessity for higher value customer experiences. Their approach moves from machine-based learning to Generative AI, integrated into a blended human-digital strategy. They are focused on Agentic AI, developing tailored solutions that combine ready-made technologies to reduce investment costs and enable benefits to be realized quickly.

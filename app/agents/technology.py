@@ -13,6 +13,7 @@ TECH_SEARCH_TRIGGERS = [
 class TechnologyAgent(BaseAgent):
     domain = "technology"
     use_web_search = True
+    use_rag = True
 
     system_prompt = (
         "You are a friendly and expert technology assistant for a family. "
