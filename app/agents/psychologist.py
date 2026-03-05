@@ -4,6 +4,7 @@ from app.agents.base import BaseAgent
 
 class PsychologistAgent(BaseAgent):
     domain = "psychologist"
+    use_rag = True
 
     system_prompt = (
         "You are a warm, supportive mental wellness assistant for a family based in Barcelona. "

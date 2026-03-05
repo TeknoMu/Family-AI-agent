@@ -1,0 +1,53 @@
+SOURCE: AIFA Drug Interaction Reference and DrugBank Summary
+DOMAIN: doctor
+
+COMMON DRUG INTERACTIONS - Family Reference
+
+FANS (Anti-inflammatory drugs) interactions:
+- Ibuprofene + Aspirina: Ibuprofene can reduce the cardioprotective effect of low-dose aspirin. Take aspirin at least 30 minutes before ibuprofene if both are needed.
+- Ibuprofene + Warfarin/anticoagulanti: Increased bleeding risk. Avoid combination or use with strict medical supervision.
+- Ibuprofene + ACE-inibitori (ramipril, enalapril): Can reduce blood pressure medication effectiveness and increase kidney risk.
+- Ibuprofene + Litio: Can increase lithium blood levels to toxic range. Avoid.
+- Ibuprofene + Metotrexato: Can increase methotrexate toxicity. Avoid.
+- Multiple FANS together: NEVER combine two FANS (e.g. ibuprofene + naprossene + ketoprofene). Greatly increases stomach and kidney risk with no additional benefit.
+
+Paracetamolo interactions:
+- Paracetamolo + Alcol: Regular alcohol use with paracetamol significantly increases liver damage risk. Limit to maximum 2g/day paracetamol if drinking.
+- Paracetamolo + Warfarin: Can increase INR (bleeding risk). Monitor more frequently.
+- Paracetamolo is generally the safest analgesic for patients on most medications.
+
+Antibiotici interactions:
+- Amoxicillina + contraccettivi orali: Historically thought to reduce contraceptive effectiveness; current evidence suggests this is minimal except with rifampicina.
+- Ciprofloxacina + dairy products/antacids: Calcium, magnesium, aluminum reduce absorption. Take ciprofloxacin 2 hours before or 6 hours after.
+- Metronidazolo + Alcol: Severe reaction (nausea, vomiting, flushing, headache). Avoid alcohol during treatment and 48 hours after.
+- Antibiotics + probiotics: Take probiotics at least 2 hours apart from antibiotics to maintain effectiveness.
+
+Statine (cholesterol drugs) interactions:
+- Atorvastatina/Simvastatina + Succo di pompelmo: Grapefruit can dramatically increase statin blood levels, increasing risk of muscle damage (rhabdomyolysis). Avoid grapefruit.
+- Statine + Fibrati (gemfibrozil): Increased rhabdomyolysis risk. Fenofibrato is safer to combine.
+- Statine + Macrolidi (eritromicina, claritromicina): Increased statin levels. Azitromicina is safer.
+
+FOOD AND MEDICATION TIMING
+
+Take WITH food: Ibuprofene, naprossene, ketoprofene (all FANS), metformina, prednisolone.
+Take on EMPTY stomach (1 hour before or 2 hours after eating): Levotiroxina (thyroid), ciprofloxacina, omeprazolo (30 min before breakfast).
+Avoid dairy within 2 hours: Tetracicline, ciprofloxacina, supplementi di ferro.
+Avoid alcohol: Metronidazolo, benzodiazepine, antistaminici, paracetamolo (limit).
+
+COMMON SUPPLEMENTS AND SAFETY
+
+Vitamina D: Recommended in Italy especially during winter. Typical dose 1000-2000 UI/day for adults. Safe up to 4000 UI/day. Higher doses require medical supervision and blood level monitoring.
+
+Ferro (Iron): Take on empty stomach with vitamin C for better absorption. Common side effects: constipation, dark stools, nausea. Do not take with calcium, dairy, tea, or coffee (reduce absorption by 50-70%).
+
+Magnesio: Helps with muscle cramps, sleep, stress. Well-tolerated. High doses may cause diarrhea. Safe for most adults at 200-400mg/day.
+
+Probiotici: Support gut health especially during/after antibiotic therapy. Take at least 2 hours apart from antibiotics. Generally very safe. Look for multi-strain formulas with at least 10 billion CFU.
+
+VACCINATION SCHEDULE - Adult Reference (Italy)
+
+Annual: Influenza vaccine (recommended for all, especially over 65 and chronic conditions)
+Every 10 years: Tetanus-diphtheria booster (richiamo tetano-difterite)
+Once (if not done): Varicella (if no history of disease), MMR (morbillo-parotite-rosolia)
+Over 50: Herpes Zoster vaccine (fuoco di Sant Antonio) recommended
+Over 65: Pneumococcal vaccine recommended

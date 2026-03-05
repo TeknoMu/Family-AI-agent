@@ -1,0 +1,83 @@
+SOURCE: FNOMCeO Clinical Guidelines and AIFA Drug References - Family Health Reference
+DOMAIN: doctor
+
+HEADACHE (Cefalea) - Triage and Management
+
+Primary headaches account for over 90% of cases. The main types are tension-type headache, migraine, and cluster headache.
+
+Tension-type headache is the most common. Symptoms include bilateral pressing or tightening pain, mild to moderate intensity, not aggravated by routine physical activity. Duration ranges from 30 minutes to 7 days. First-line treatment: paracetamol 500-1000mg or ibuprofene 200-400mg. Do not exceed recommended daily doses.
+
+Migraine presents as unilateral pulsating pain, moderate to severe intensity, aggravated by physical activity, often with nausea, photophobia, or phonophobia. Duration 4-72 hours. Aura may precede the headache in some patients. First-line treatment: triptani (e.g. sumatriptan) as prescribed by doctor, or FANS (ibuprofene, naprossene). Preventive therapy may be needed if attacks occur more than 4 times per month.
+
+RED FLAGS requiring immediate emergency evaluation (call 112):
+- Thunderclap headache: worst headache of life, sudden onset reaching maximum intensity in seconds
+- Headache with fever, neck stiffness, rash (possible meningitis)
+- Headache with neurological symptoms: confusion, weakness, vision loss, speech difficulty
+- Headache after head trauma
+- New headache in patient over 50 years old with temporal tenderness (possible giant cell arteritis)
+- Headache with papilledema or progressive worsening over weeks
+
+FEVER (Febbre) - Management Guidelines
+
+Normal body temperature: 36.1-37.2 C (oral). Fever is defined as temperature above 38.0 C.
+
+Low-grade fever (37.5-38.0): Monitor, increase fluid intake, rest. Generally does not require antipyretics.
+Moderate fever (38.0-39.0): Paracetamol or ibuprofene for comfort. Increase fluids significantly. Rest.
+High fever (39.0-40.0): Antipyretics recommended. Cool compresses. Seek medical attention if persists more than 3 days.
+Very high fever (above 40.0): Seek immediate medical attention.
+
+In children: Fever above 38.0 in infants under 3 months requires immediate medical evaluation. For children 3 months to 3 years, seek medical attention if fever above 39.0 or persists more than 24 hours. Always monitor for dehydration signs.
+
+NEVER use aspirin (acido acetilsalicilico) in children under 16 due to risk of Reye syndrome.
+
+COMMON MEDICATIONS - AIFA Reference
+
+Paracetamolo (Tachipirina):
+- Use: Pain relief, fever reduction
+- NOT an anti-inflammatory
+- Generally well-tolerated at recommended doses
+- DANGER: Hepatotoxicity (liver damage) at high doses. Maximum 3g per day for adults. Never combine with alcohol.
+- Available over-the-counter
+
+Ibuprofene (Moment, Brufen):
+- Use: Pain relief, fever reduction, anti-inflammatory
+- Take with food to protect stomach
+- Common side effects: GI upset, heartburn, nausea
+- Avoid in: Last trimester of pregnancy, active stomach ulcers, severe kidney or liver disease
+- Caution with: Anticoagulants, other FANS, ACE inhibitors
+- Maximum 1200mg per day (OTC) without prescription
+
+Amoxicillina:
+- Antibiotic, penicillin class
+- Use: Bacterial infections (ear, throat, urinary, respiratory)
+- ALWAYS complete the full prescribed course
+- Common side effects: Diarrhea, nausea, rash
+- Allergic reactions possible: if rash, swelling, difficulty breathing -> emergency
+
+WHEN TO SEE A DOCTOR (Guida alla Priorita)
+
+See within 24 hours:
+- Fever above 39 persisting more than 2 days
+- Ear pain with discharge
+- Urinary symptoms (burning, frequency, blood)
+- Persistent vomiting or diarrhea beyond 24 hours
+- Skin infection showing spreading redness
+
+See within the week:
+- Cough lasting more than 2 weeks
+- Recurring headaches
+- Unexplained weight loss
+- Persistent fatigue
+- Joint pain or swelling
+- Skin lesion that is changing
+
+EMERGENCY - Call 112 immediately:
+- Chest pain or pressure
+- Difficulty breathing
+- Sudden weakness on one side (stroke signs: FAST - Face, Arms, Speech, Time)
+- Severe allergic reaction (anaphylaxis)
+- Severe bleeding that does not stop with pressure
+- Loss of consciousness
+- Seizures
+- Severe abdominal pain
+- Signs of meningitis (fever, stiff neck, rash that does not blanch)

@@ -1,0 +1,92 @@
+SOURCE: Evidence-Based Psychology Reference - CBT and Coping Strategies
+DOMAIN: psychologist
+
+COGNITIVE BEHAVIORAL THERAPY (CBT) - Core Techniques
+
+The CBT Model: Situations trigger Thoughts, which influence Emotions, which drive Behaviors. By changing distorted thoughts, we can change how we feel and act.
+
+COGNITIVE DISTORTIONS - Common Thinking Traps:
+
+1. All-or-nothing thinking (Pensiero tutto-o-niente): Seeing things in black and white. "If I'm not perfect, I'm a total failure." Challenge: Look for the gray area. Rate the situation on a scale of 0-100 instead of pass/fail.
+
+2. Catastrophizing (Catastrofizzare): Expecting the worst possible outcome. "This headache must be a brain tumor." Challenge: What is the most LIKELY outcome? What evidence supports/contradicts the worst case?
+
+3. Mind reading (Lettura del pensiero): Assuming you know what others think. "Everyone at the party thought I was boring." Challenge: Do you have actual evidence? Could there be other explanations?
+
+4. Emotional reasoning (Ragionamento emotivo): "I feel anxious, so something must be dangerous." Challenge: Feelings are not facts. Anxiety is the body's alarm system, and sometimes it fires falsely.
+
+5. Should statements (Doverizzazioni): "I should always be productive." Challenge: Replace "should" with "I would prefer" or "it would be helpful to."
+
+6. Overgeneralization (Ipergeneralizzazione): "I failed this exam, I always fail everything." Challenge: Is this really ALWAYS true? Find counterexamples.
+
+7. Mental filter (Filtro mentale): Focusing only on negative details while ignoring positives. Challenge: Write down 3 positive things about the situation alongside the negative.
+
+THOUGHT CHALLENGING WORKSHEET (simplified):
+1. What is the situation?
+2. What am I thinking? (automatic thought)
+3. What emotion am I feeling? (rate intensity 0-100)
+4. What evidence SUPPORTS this thought?
+5. What evidence CONTRADICTS this thought?
+6. What is a more balanced, realistic thought?
+7. How do I feel now? (re-rate intensity)
+
+ANXIETY MANAGEMENT TECHNIQUES
+
+Box Breathing (Respirazione a Scatola):
+1. Breathe IN for 4 seconds
+2. HOLD for 4 seconds
+3. Breathe OUT for 4 seconds
+4. HOLD for 4 seconds
+5. Repeat 4-6 cycles
+Best for: Acute anxiety, before stressful events, panic onset
+
+5-4-3-2-1 Grounding (Radicamento):
+Name out loud:
+- 5 things you can SEE
+- 4 things you can TOUCH
+- 3 things you can HEAR
+- 2 things you can SMELL
+- 1 thing you can TASTE
+Best for: Dissociation, panic attacks, overwhelming anxiety, intrusive thoughts
+
+Progressive Muscle Relaxation (Rilassamento Muscolare Progressivo):
+Starting from your feet, tense each muscle group for 5 seconds, then release for 10 seconds. Work up through: feet, calves, thighs, abdomen, hands, arms, shoulders, face.
+Best for: Physical tension, insomnia, chronic stress
+Duration: 10-15 minutes for full body
+
+SLEEP HYGIENE PROTOCOL
+
+1. Consistent schedule: Same bedtime and wake time every day, including weekends (within 30 minutes)
+2. Wind-down routine: Start 60 minutes before bed. Dim lights, no screens (or use blue light filter), calm activities (reading, gentle stretching)
+3. Bedroom environment: Cool (18-20 C), dark, quiet. Bed is for sleep only (no work, no phone scrolling)
+4. Avoid before bed: Caffeine after 2pm, heavy meals within 3 hours, alcohol (disrupts sleep architecture), intense exercise within 2 hours
+5. If you cannot sleep after 20 minutes: Get up, go to another room, do something calm until drowsy, then return to bed
+6. Limit naps: Maximum 20 minutes, not after 3pm
+7. Morning light exposure: Get 10-15 minutes of natural light within an hour of waking (helps set circadian rhythm)
+
+STRESS MANAGEMENT - Daily Practices
+
+The Stress Bucket Model: Everyone has a "stress bucket" that fills up during the day. If it overflows, we experience burnout, anxiety, or physical symptoms. The goal is to have enough "taps" (coping strategies) to drain the bucket regularly.
+
+Daily stress drains:
+- Physical activity (even a 20-minute walk)
+- Social connection (meaningful conversation, not social media)
+- Creative expression (cooking, drawing, music, writing)
+- Nature exposure (park, garden, beach)
+- Mindfulness (even 5 minutes of focused breathing)
+- Humor (laughter genuinely reduces cortisol)
+- Gratitude practice (3 things you are grateful for today)
+
+COMMUNICATION SKILLS
+
+I-Statements (Comunicazione con messaggi-io):
+Instead of "You never listen to me!" (accusatory, triggers defensiveness)
+Try: "When [situation], I feel [emotion] because [reason]. I would like [request]."
+Example: "When you check your phone during dinner, I feel unimportant because I value our time together. I would like us to put phones away during meals."
+
+Active Listening:
+1. Give full attention (put phone down, face the person)
+2. Reflect back: "It sounds like you're saying..."
+3. Ask clarifying questions: "Can you tell me more about...?"
+4. Validate the emotion: "That sounds really frustrating"
+5. Avoid: Interrupting, problem-solving immediately, minimizing ("It's not that bad")

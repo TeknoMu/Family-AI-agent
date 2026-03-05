@@ -13,6 +13,10 @@ python-telegram-bot>=21,<22
 # Web search
 tavily-python>=0.5,<1.0
 
+# RAG - Vector store and embeddings
+pinecone>=5.0,<6.0
+voyageai>=0.3,<1.0
+
 # Utilities
 httpx>=0.28,<1.0
 python-dotenv>=1.0,<2.0

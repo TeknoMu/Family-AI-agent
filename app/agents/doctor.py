@@ -16,6 +16,7 @@ MEDICAL_SEARCH_TRIGGERS = [
 class DoctorAgent(BaseAgent):
     domain = "doctor"
     use_web_search = True
+    use_rag = True
 
     system_prompt = """You are a knowledgeable medical information assistant for a family based in Barcelona, Spain (Italian heritage). You provide helpful health information based on established medical knowledge.
 

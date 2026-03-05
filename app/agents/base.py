@@ -5,6 +5,7 @@ from abc import ABC, abstractmethod
 import structlog
 from app.core.llm import call_llm
 from app.core.search import search_web, search_news
+from app.core.rag import retrieve_knowledge
 
 logger = structlog.get_logger()
 
@@ -16,6 +17,7 @@ class BaseAgent(ABC):
     system_prompt: str = ""
     use_web_search: bool = False
     use_news_search: bool = False
+    use_rag: bool = False
 
     @property
     @abstractmethod
@@ -34,20 +36,22 @@ class BaseAgent(ABC):
     async def respond(self, user_message: str, history: list[dict] | None = None) -> str:
         """
         Generate a response to the user message.
-        Optionally enriches context with web search results.
-
-        Args:
-            user_message: The user's current message.
-            history: Previous messages in the conversation (optional).
-
-        Returns:
-            The agent's response text with disclaimer appended.
+        Enriches context with RAG knowledge and/or web search results.
         """
         messages = []
 
         # Add conversation history if available (last 10 exchanges max)
         if history:
-            messages.extend(history[-20:])  # 20 messages = 10 exchanges
+            messages.extend(history[-20:])
+
+        # RAG knowledge retrieval
+        rag_context = ""
+        if self.use_rag:
+            rag_context = await retrieve_knowledge(
+                query=user_message,
+                domain=self.domain,
+                top_k=5,
+            )
 
         # Web search enrichment
         search_context = ""
@@ -58,24 +62,38 @@ class BaseAgent(ABC):
             else:
                 search_context = await search_web(query, max_results=3)
 
-        # Build the user message with search context
-        if search_context:
-            enriched_message = (
-                f"{user_message}\n\n"
-                f"--- Web Search Results ---\n"
-                f"{search_context}\n"
-                f"--- End Search Results ---\n\n"
-                f"Use the search results above to provide accurate, up-to-date information. "
-                f"Cite sources when relevant. If the search results conflict, note the disagreement."
-            )
-        else:
-            enriched_message = user_message
+        # Build the enriched message
+        parts = [user_message]
 
+        if rag_context:
+            parts.append(
+                "\n\n--- Knowledge Base ---\n"
+                f"{rag_context}\n"
+                "--- End Knowledge Base ---"
+            )
+
+        if search_context:
+            parts.append(
+                "\n\n--- Web Search Results ---\n"
+                f"{search_context}\n"
+                "--- End Search Results ---"
+            )
+
+        if rag_context or search_context:
+            parts.append(
+                "\n\nUse the knowledge base and search results above to provide accurate information. "
+                "Prioritize knowledge base content for established guidelines and protocols. "
+                "Use web search for current events and recent developments. "
+                "Cite sources when relevant."
+            )
+
+        enriched_message = "\n".join(parts)
         messages.append({"role": "user", "content": enriched_message})
 
         logger.info(
             "agent_call",
             domain=self.domain,
+            rag=bool(rag_context),
             searched=bool(search_context),
             message_preview=user_message[:80],
         )
