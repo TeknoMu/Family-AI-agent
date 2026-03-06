@@ -76,7 +76,7 @@ async def handle_voice(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if not is_allowed(update.effective_user.id):
         return
     user_id = str(update.effective_user.id)
-    await update.message.chat.send_action("typing")
+    await update.message.chat.send_action("record_voice")
 
     try:
         # Step 1: Download voice file from Telegram
@@ -85,8 +85,10 @@ async def handle_voice(update: Update, context: ContextTypes.DEFAULT_TYPE):
         audio_data = await file.download_as_bytearray()
         logger.info("voice_received user=%s duration=%s", user_id, voice.duration)
 
-        # Step 2: Transcribe with Deepgram
-        transcript = await transcribe_audio(bytes(audio_data))
+        # Step 2: Transcribe with Deepgram (auto language detection)
+        result = await transcribe_audio(bytes(audio_data))
+        transcript = result["text"]
+        detected_lang = result["language"]
 
         if not transcript:
             await update.message.reply_text(
@@ -94,23 +96,30 @@ async def handle_voice(update: Update, context: ContextTypes.DEFAULT_TYPE):
             )
             return
 
-        # Show what we heard
-        heard_msg = 'Ho capito: "' + transcript + '"'
-        await update.message.reply_text(heard_msg)
-        await update.message.chat.send_action("typing")
-
         # Step 3: Process through agent pipeline
-        result = await handle_message(user_id=user_id, user_message=transcript)
+        # Add language hint so the agent responds in the same language
+        lang_hint = ""
+        if detected_lang and detected_lang.startswith("en"):
+            lang_hint = " (Please respond in English, the user spoke in English.)"
+        elif detected_lang and detected_lang.startswith("es"):
+            lang_hint = " (Please respond in Spanish, the user spoke in Spanish.)"
 
-        # Step 4: Send text reply
-        await send_response(update, result["domain"], result["response"])
+        agent_result = await handle_message(
+            user_id=user_id,
+            user_message=transcript + lang_hint,
+        )
 
-        # Step 5: Generate and send voice reply
-        await update.message.chat.send_action("record_voice")
-        audio_reply = await text_to_speech(result["response"])
+        # Step 4: Generate voice reply
+        audio_reply = await text_to_speech(agent_result["response"])
 
         if audio_reply:
+            # Voice conversation: send voice only
             await update.message.reply_voice(voice=io.BytesIO(audio_reply))
+            logger.info("voice_reply_sent user=%s", user_id)
+        else:
+            # TTS failed: fall back to text
+            await send_response(update, agent_result["domain"], agent_result["response"])
+            logger.warning("voice_tts_failed, text fallback user=%s", user_id)
 
     except Exception as ex:
         logger.error("Voice error: %s", ex, exc_info=True)
