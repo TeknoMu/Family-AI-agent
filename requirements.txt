@@ -17,6 +17,10 @@ tavily-python>=0.5,<1.0
 pinecone>=5.0,<6.0
 voyageai>=0.3,<1.0
 
+# Voice - STT and TTS
+deepgram-sdk>=3.0,<4.0
+openai>=1.0,<2.0
+
 # Utilities
 httpx>=0.28,<1.0
 python-dotenv>=1.0,<2.0

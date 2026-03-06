@@ -14,6 +14,8 @@ class Settings(BaseSettings):
     tavily_api_key: str = ""
     pinecone_api_key: str = ""
     voyage_api_key: str = ""
+    deepgram_api_key: str = ""
+    openai_api_key: str = ""
     log_level: str = "INFO"
     allowed_user_ids: str = ""  # comma-separated
 
